@@ -1,5 +1,9 @@
 # My files
 src-data
+processed-data
+level1Test.py
+test.py
+user_dict.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
