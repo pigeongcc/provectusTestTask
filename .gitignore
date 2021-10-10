@@ -1,3 +1,12 @@
+# My files
+Level 1/src-data
+Level 1/processed-data
+Level 1/level1Test.py
+Level 1/test.py
+user_dict.pkl
+Algorithms and Data Structures/task1_test.py
+Algorithms and Data Structures/task1_unoptimized.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

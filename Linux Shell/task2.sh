@@ -1,0 +1,1 @@
+cat /proc/<PID>/environ
