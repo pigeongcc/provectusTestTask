@@ -47,7 +47,11 @@ def match_users_to_images(working_dir) :
     user_dict = load_user_dict(working_dir)
 
     # set minimal id for potential new users
-    id = max(user_dict.values()) + 1
+    # if this is the 1st program launch, set minimal id to 1
+    if len(user_dict) > 0:
+        id = max(user_dict.values()) + 1
+    else:
+        id = 1
 
     # organizing the output
     outputPath = os.path.join(working_dir, "processed-data", "output.csv")
